@@ -3,19 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36F58C228DA2D20A1E478950 /* Pods_LilArcadeProj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A08C033D6975E49C1E4FBD /* Pods_LilArcadeProj.framework */; };
 		6C9C1C6524384C0A005E09BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C1C6424384C0A005E09BA /* AppDelegate.swift */; };
 		6C9C1C6724384C0A005E09BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C1C6624384C0A005E09BA /* SceneDelegate.swift */; };
 		6C9C1C6924384C0A005E09BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C1C6824384C0A005E09BA /* ViewController.swift */; };
 		6C9C1C6C24384C0A005E09BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C1C6A24384C0A005E09BA /* Main.storyboard */; };
 		6C9C1C6E24384C0C005E09BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C1C6D24384C0C005E09BA /* Assets.xcassets */; };
 		6C9C1C7124384C0C005E09BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C1C6F24384C0C005E09BA /* LaunchScreen.storyboard */; };
+		6C9C1C7924384DA0005E09BA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C1C7824384DA0005E09BA /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F8783D34F2A9F483ACF9570 /* Pods-LilArcadeProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LilArcadeProj.release.xcconfig"; path = "Target Support Files/Pods-LilArcadeProj/Pods-LilArcadeProj.release.xcconfig"; sourceTree = "<group>"; };
 		6C9C1C6124384C0A005E09BA /* LilArcadeProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LilArcadeProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9C1C6424384C0A005E09BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C9C1C6624384C0A005E09BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		6C9C1C6D24384C0C005E09BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C9C1C7024384C0C005E09BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C9C1C7224384C0C005E09BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C9C1C7824384DA0005E09BA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		79A08C033D6975E49C1E4FBD /* Pods_LilArcadeProj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LilArcadeProj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E336A2A8E21020E3860916A6 /* Pods-LilArcadeProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LilArcadeProj.debug.xcconfig"; path = "Target Support Files/Pods-LilArcadeProj/Pods-LilArcadeProj.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36F58C228DA2D20A1E478950 /* Pods_LilArcadeProj.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C5CB09FF525F035B081D8A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79A08C033D6975E49C1E4FBD /* Pods_LilArcadeProj.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6C9C1C5824384C0A005E09BA = {
 			isa = PBXGroup;
 			children = (
 				6C9C1C6324384C0A005E09BA /* LilArcadeProj */,
 				6C9C1C6224384C0A005E09BA /* Products */,
+				825F9C3AD436C53F76A34155 /* Pods */,
+				6C5CB09FF525F035B081D8A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +80,18 @@
 				6C9C1C6D24384C0C005E09BA /* Assets.xcassets */,
 				6C9C1C6F24384C0C005E09BA /* LaunchScreen.storyboard */,
 				6C9C1C7224384C0C005E09BA /* Info.plist */,
+				6C9C1C7824384DA0005E09BA /* LoginViewController.swift */,
 			);
 			path = LilArcadeProj;
+			sourceTree = "<group>";
+		};
+		825F9C3AD436C53F76A34155 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E336A2A8E21020E3860916A6 /* Pods-LilArcadeProj.debug.xcconfig */,
+				5F8783D34F2A9F483ACF9570 /* Pods-LilArcadeProj.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C9C1C7524384C0C005E09BA /* Build configuration list for PBXNativeTarget "LilArcadeProj" */;
 			buildPhases = (
+				A3122A5563C485A12A372859 /* [CP] Check Pods Manifest.lock */,
 				6C9C1C5D24384C0A005E09BA /* Sources */,
 				6C9C1C5E24384C0A005E09BA /* Frameworks */,
 				6C9C1C5F24384C0A005E09BA /* Resources */,
+				B5474B383B4F49622FE7E2FB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,11 +162,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A3122A5563C485A12A372859 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LilArcadeProj-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5474B383B4F49622FE7E2FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LilArcadeProj/Pods-LilArcadeProj-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LilArcadeProj/Pods-LilArcadeProj-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LilArcadeProj/Pods-LilArcadeProj-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6C9C1C5D24384C0A005E09BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C9C1C7924384DA0005E09BA /* LoginViewController.swift in Sources */,
 				6C9C1C6924384C0A005E09BA /* ViewController.swift in Sources */,
 				6C9C1C6524384C0A005E09BA /* AppDelegate.swift in Sources */,
 				6C9C1C6724384C0A005E09BA /* SceneDelegate.swift in Sources */,
@@ -282,6 +354,7 @@
 		};
 		6C9C1C7624384C0C005E09BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E336A2A8E21020E3860916A6 /* Pods-LilArcadeProj.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +373,7 @@
 		};
 		6C9C1C7724384C0C005E09BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F8783D34F2A9F483ACF9570 /* Pods-LilArcadeProj.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
