@@ -10,3 +10,4 @@ Unit 10 - Weekly Sprints:
 - [x] Profile Screen
 - [x] Test Database w/ fake user
 
+Build Progress:
