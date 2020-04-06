@@ -1,5 +1,5 @@
 # LilArcadeProject
-This is the readme file....
+It's our group app that is a mini arcade of simple, classic games...Enjoy!! 
 
 Unit 10 - Weekly Sprints:
 - [x] Create database via Parse
