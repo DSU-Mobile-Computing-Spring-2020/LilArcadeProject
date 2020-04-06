@@ -10,4 +10,5 @@ Unit 10 - Weekly Sprints:
 - [x] Profile Screen
 - [x] Test Database w/ fake user
 
-Build Progress:
+### Build Progress/App Skeleton Walkthrough GIF:
+<img src="http://g.recordit.co/tkUSunrwVO.gif" width=250><br>
