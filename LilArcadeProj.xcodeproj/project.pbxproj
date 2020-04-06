@@ -16,6 +16,8 @@
 		6C9C1C7124384C0C005E09BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C1C6F24384C0C005E09BA /* LaunchScreen.storyboard */; };
 		6C9C1C7924384DA0005E09BA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C1C7824384DA0005E09BA /* LoginViewController.swift */; };
 		6C9C1C7B2438F11A005E09BA /* GameroomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C1C7A2438F11A005E09BA /* GameroomViewController.swift */; };
+		6C9C1C7F243ACC84005E09BA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C1C7E243ACC84005E09BA /* SettingsViewController.swift */; };
+		6C9C1C81243ACC94005E09BA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C1C80243ACC94005E09BA /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		6C9C1C7224384C0C005E09BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C9C1C7824384DA0005E09BA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6C9C1C7A2438F11A005E09BA /* GameroomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameroomViewController.swift; sourceTree = "<group>"; };
+		6C9C1C7E243ACC84005E09BA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6C9C1C80243ACC94005E09BA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		79A08C033D6975E49C1E4FBD /* Pods_LilArcadeProj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LilArcadeProj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E336A2A8E21020E3860916A6 /* Pods-LilArcadeProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LilArcadeProj.debug.xcconfig"; path = "Target Support Files/Pods-LilArcadeProj/Pods-LilArcadeProj.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,6 +88,8 @@
 				6C9C1C7224384C0C005E09BA /* Info.plist */,
 				6C9C1C7824384DA0005E09BA /* LoginViewController.swift */,
 				6C9C1C7A2438F11A005E09BA /* GameroomViewController.swift */,
+				6C9C1C7E243ACC84005E09BA /* SettingsViewController.swift */,
+				6C9C1C80243ACC94005E09BA /* ProfileViewController.swift */,
 			);
 			path = LilArcadeProj;
 			sourceTree = "<group>";
@@ -216,7 +222,9 @@
 				6C9C1C7B2438F11A005E09BA /* GameroomViewController.swift in Sources */,
 				6C9C1C6924384C0A005E09BA /* ViewController.swift in Sources */,
 				6C9C1C6524384C0A005E09BA /* AppDelegate.swift in Sources */,
+				6C9C1C81243ACC94005E09BA /* ProfileViewController.swift in Sources */,
 				6C9C1C6724384C0A005E09BA /* SceneDelegate.swift in Sources */,
+				6C9C1C7F243ACC84005E09BA /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

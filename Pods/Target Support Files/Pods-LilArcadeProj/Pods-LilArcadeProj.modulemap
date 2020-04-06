@@ -1,0 +1,6 @@
+framework module Pods_LilArcadeProj {
+  umbrella header "Pods-LilArcadeProj-umbrella.h"
+
+  export *
+  module * { export * }
+}
