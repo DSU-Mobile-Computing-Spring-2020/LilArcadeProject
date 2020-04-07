@@ -7,16 +7,35 @@
 //
 
 import UIKit
+import Parse
 
 class ProfileViewController: UIViewController {
 
+    @IBOutlet weak var changeUsernameField: UITextField!
+    @IBOutlet weak var usernameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func changeUsername(_ sender: Any) {  //What happens if the user types in nothing and presses 'change' button?
+        var username = changeUsernameField.text
+        
+        let currentUser = PFUser.current()
+        
+        currentUser!["username"] = username
+        
+        currentUser!.saveInBackground()
+        
+        changeUsernameField.text = ""
+    }
+    
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 

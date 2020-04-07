@@ -10,13 +10,54 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
+    @IBOutlet weak var backgroundColor: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func onSlidingGameVolume(_ sender: Any) {
+        
+    }
+    
+    @IBAction func onSlidingBrightness(_ sender: Any) {
+        
+    }
+    
+    @IBAction func onSwitchingDarkMode(_ sender: Any) {
+        
+    }
+    
+    @IBAction func onBackgroundButton_1(_ sender: Any) {
+        backgroundColor.image = UIImage(named: "Gradient Blue")
+    }
+    
+    @IBAction func onBackgroundButton_2(_ sender: Any) {
+        backgroundColor.image = UIImage(named: "Gradient Gold")
+    }
+    
+    @IBAction func onBackgroundButton_3(_ sender: Any) {
+        backgroundColor.image = UIImage(named: "Gradient Orange")
+    }
+    
+    @IBAction func onBackgroundButton_4(_ sender: Any) {
+        backgroundColor.image = UIImage(named: "Gradient Green")
+    }
+    
+    @IBAction func onBackgroundButton_5(_ sender: Any) {
+        backgroundColor.image = UIImage(named: "Gradient Purple-Pink")
+    }
+    
+    @IBAction func onBackgroundButton_6(_ sender: Any) {
+        backgroundColor.image = UIImage(named: "Gradient Pink-Blue")
+    }
+    
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
