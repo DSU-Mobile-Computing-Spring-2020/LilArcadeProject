@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> 82e381ae6e4cd0720dac1a254f8ffe54e45037f2
 Group Project - README 
 ==========
 
