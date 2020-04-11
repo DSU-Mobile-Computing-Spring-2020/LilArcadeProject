@@ -32,6 +32,8 @@ class SettingsViewController: UIViewController {
     
     @IBAction func onBackgroundButton_1(_ sender: Any) {
         backgroundColor.image = UIImage(named: "Gradient Blue")
+
+        // make sure background saves in the database
     }
     
     @IBAction func onBackgroundButton_2(_ sender: Any) {
@@ -53,10 +55,6 @@ class SettingsViewController: UIViewController {
     @IBAction func onBackgroundButton_6(_ sender: Any) {
         backgroundColor.image = UIImage(named: "Gradient Pink-Blue")
     }
-    
-    
-    
-    
     
     /*
     // MARK: - Navigation
