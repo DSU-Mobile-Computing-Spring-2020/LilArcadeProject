@@ -1,8 +1,6 @@
 
-Group Project - README 
+# "Lil' Arcade" - README
 ==========
-
-# "Lil' Arcade"
 
 ## Table of Contents
 1. [Overview](#Overview)
