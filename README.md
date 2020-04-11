@@ -1,5 +1,5 @@
 
-# "Lil' Arcade" - README
+"Lil' Arcade" - README
 ==========
 
 ## Table of Contents
