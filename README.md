@@ -162,4 +162,3 @@ Unit 10 - Weekly Sprints:
 
 ### Build Progress/App Skeleton Walkthrough GIF:
 <img src="http://g.recordit.co/tkUSunrwVO.gif" width=250><br>
->>>>>>> 82e381ae6e4cd0720dac1a254f8ffe54e45037f2
