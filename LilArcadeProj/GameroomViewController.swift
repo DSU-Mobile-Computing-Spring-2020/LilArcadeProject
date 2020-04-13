@@ -16,6 +16,10 @@ class GameroomViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func onTicTacToeButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "tictactoeSegue", sender: nil)
+    }
+    
 
     /*
     // MARK: - Navigation

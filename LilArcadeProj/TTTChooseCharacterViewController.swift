@@ -1,14 +1,14 @@
 //
-//  TicTacToeViewController.swift
+//  TTTChooseCharacterViewController.swift
 //  LilArcadeProj
 //
-//  Created by Leroy on 4/12/20.
+//  Created by JAMIE HOLMES on 4/12/20.
 //  Copyright © 2020 Malon Holmes. All rights reserved.
 //
 
 import UIKit
 
-class TicTacToeViewController: UIViewController {
+class TTTChooseCharacterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,15 +16,14 @@ class TicTacToeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    var userCharacter = UIImage.self
-    
     @IBAction func onOption_X(_ sender: Any) {
-        //userCharacter = UIImage(named: "Cross")
+        
     }
     
     @IBAction func onOption_O(_ sender: Any) {
-        //userCharacter = UIImage(named: "Nought")
+        
     }
+    
     
     /*
     // MARK: - Navigation
