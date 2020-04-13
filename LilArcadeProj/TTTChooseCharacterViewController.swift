@@ -16,6 +16,10 @@ class TTTChooseCharacterViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        var TicTacToeController = segue.destination as! TicTacToeViewController
+        TicTacToeController.button1 =
+    }
     @IBAction func onOption_X(_ sender: Any) {
         
     }

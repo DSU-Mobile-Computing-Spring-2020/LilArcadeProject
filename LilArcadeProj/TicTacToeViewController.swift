@@ -10,21 +10,25 @@ import UIKit
 
 class TicTacToeViewController: UIViewController {
 
+    @IBOutlet weak var button1: UIButton!
+    
+    var userChar = UIImage()
+    var compChar = UIImage()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
     
-    var userCharacter = UIImage.self
-    
-    @IBAction func onOption_X(_ sender: Any) {
-        //userCharacter = UIImage(named: "Cross")
+    @IBAction func placeChar(_ sender: Any) {
+        //if user's turn:
+        //button1.setImage(userChar, for: <#T##UIControl.State#>)
+        //if computeer's turn:
+        //button1.setImage(compChar, for: <#T##UIControl.State#>)
     }
     
-    @IBAction func onOption_O(_ sender: Any) {
-        //userCharacter = UIImage(named: "Nought")
-    }
+    
+    
     
     /*
     // MARK: - Navigation
