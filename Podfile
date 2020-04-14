@@ -6,6 +6,7 @@ target 'LilArcadeProj' do
   use_frameworks!
 
   # Pods for LilArcadeProj
-   pod 'Parse'
+	pod 'Parse'
+
 
 end

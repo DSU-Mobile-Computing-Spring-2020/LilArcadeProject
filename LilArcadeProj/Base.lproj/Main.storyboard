@@ -85,14 +85,15 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Gradient Purple-Pink" translatesAutoresizingMaskIntoConstraints="NO" id="M5G-ee-8XR" userLabel="Gameroom Background Color">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlo-LC-UwP" userLabel="Tic Tac Toe Button">
                                 <rect key="frame" x="58" y="123" width="82" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Gradient Green"/>
+                                <state key="normal" image="Screen Shot 2020-04-13 at 9.15.04 PM"/>
                                 <connections>
                                     <action selector="onTicTacToeButton:" destination="8mW-bL-PQu" eventType="touchUpInside" id="XhP-mi-OqI"/>
-                                    <segue destination="O3w-hf-YQo" kind="presentation" identifier="tictactoeSegue" id="wmq-fS-4zK"/>
+                                    <segue destination="b2z-BG-fy9" kind="presentation" identifier="tictactoeSegue" id="fkt-XJ-yhn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ut-ZH-Img" userLabel="Pong Button">
@@ -101,7 +102,7 @@
                                 <state key="normal" image="Gradient Orange"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tic Tac Toe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVT-us-275" userLabel="Tic Tac Toe Label">
-                                <rect key="frame" x="56" y="206" width="87" height="81"/>
+                                <rect key="frame" x="56" y="227" width="87" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -147,14 +148,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NpN-46-hRC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3704.8000000000002" y="-760.56971514242889"/>
+            <point key="canvasLocation" x="3704.8000000000002" y="-904.49775112443785"/>
         </scene>
         <!--Tic Tac Toe View Controller-->
         <scene sceneID="D2O-4n-zxg">
             <objects>
-                <viewController title="Tic Tac Toe View Controller" id="b2z-BG-fy9" customClass="TicTacToeViewController" customModule="LilArcadeProj" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Tic Tac Toe View Controller" modalPresentationStyle="fullScreen" id="b2z-BG-fy9" customClass="TicTacToeViewController" customModule="LilArcadeProj" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4lP-gf-Zf7">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Board" translatesAutoresizingMaskIntoConstraints="NO" id="5U9-P5-ipE" userLabel="Tic Tac Toe Board">
@@ -166,71 +167,71 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="Gradient Blue"/>
                                 <connections>
-                                    <action selector="placeChar:" destination="b2z-BG-fy9" eventType="touchUpInside" id="i6x-zq-mEb"/>
+                                    <action selector="action:" destination="b2z-BG-fy9" eventType="touchUpInside" id="afx-S4-zdH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F02-L1-IuC" userLabel="Button4">
                                 <rect key="frame" x="33" y="260" width="101" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Gradient Blue"/>
+                                <state key="normal" image="Gradient Blue" backgroundImage="Gradient Blue"/>
                                 <connections>
-                                    <action selector="placeChar:" destination="b2z-BG-fy9" eventType="touchUpInside" id="1wh-ab-8fn"/>
+                                    <action selector="action:" destination="b2z-BG-fy9" eventType="touchUpInside" id="bPz-9d-AlI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T88-kQ-UKI" userLabel="Button7">
                                 <rect key="frame" x="33" y="364" width="101" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Gradient Blue"/>
+                                <state key="normal" image="Gradient Blue" backgroundImage="Gradient Blue"/>
                                 <connections>
-                                    <action selector="placeChar:" destination="b2z-BG-fy9" eventType="touchUpInside" id="Qeq-rF-z6J"/>
+                                    <action selector="action:" destination="b2z-BG-fy9" eventType="touchUpInside" id="GpH-3r-fUv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGQ-Jk-bfU" userLabel="Button8">
                                 <rect key="frame" x="137" y="364" width="102" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Gradient Blue"/>
+                                <state key="normal" image="Gradient Blue" backgroundImage="Gradient Blue"/>
                                 <connections>
-                                    <action selector="placeChar:" destination="b2z-BG-fy9" eventType="touchUpInside" id="jO5-hu-DyL"/>
+                                    <action selector="action:" destination="b2z-BG-fy9" eventType="touchUpInside" id="Iii-CZ-OZo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3nE-ch-pdP" userLabel="Button5">
                                 <rect key="frame" x="137" y="260" width="102" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Gradient Blue"/>
+                                <state key="normal" image="Gradient Blue" backgroundImage="Gradient Blue"/>
                                 <connections>
-                                    <action selector="placeChar:" destination="b2z-BG-fy9" eventType="touchUpInside" id="aPg-8o-jSR"/>
+                                    <action selector="action:" destination="b2z-BG-fy9" eventType="touchUpInside" id="cpf-wi-CXm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFs-xN-b3G" userLabel="Button9">
                                 <rect key="frame" x="242" y="364" width="100" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Gradient Blue"/>
+                                <state key="normal" image="Gradient Blue" backgroundImage="Gradient Blue"/>
                                 <connections>
-                                    <action selector="placeChar:" destination="b2z-BG-fy9" eventType="touchUpInside" id="aRK-gD-EVk"/>
+                                    <action selector="action:" destination="b2z-BG-fy9" eventType="touchUpInside" id="7gF-gt-zco"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ScH-lv-8qF" userLabel="Button6">
                                 <rect key="frame" x="242" y="261" width="100" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Gradient Blue"/>
+                                <state key="normal" image="Gradient Blue" backgroundImage="Gradient Blue"/>
                                 <connections>
-                                    <action selector="placeChar:" destination="b2z-BG-fy9" eventType="touchUpInside" id="xKQ-i0-Z4C"/>
+                                    <action selector="action:" destination="b2z-BG-fy9" eventType="touchUpInside" id="zup-OI-KzS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vHM-Pi-gCe" userLabel="Button2">
                                 <rect key="frame" x="137" y="157" width="102" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" backgroundImage="Gradient Blue"/>
+                                <state key="normal" backgroundImage="Gradient Blue"/>
                                 <connections>
-                                    <action selector="placeChar:" destination="b2z-BG-fy9" eventType="touchUpInside" id="0ic-11-rfe"/>
+                                    <action selector="action:" destination="b2z-BG-fy9" eventType="touchUpInside" id="ymg-Vr-Qk8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jK6-rO-kBG" userLabel="Button3">
                                 <rect key="frame" x="242" y="157" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" backgroundImage="Gradient Blue"/>
+                                <state key="normal" backgroundImage="Gradient Blue"/>
                                 <connections>
-                                    <action selector="placeChar:" destination="b2z-BG-fy9" eventType="touchUpInside" id="UrM-Vn-gt0"/>
+                                    <action selector="action:" destination="b2z-BG-fy9" eventType="touchUpInside" id="cUY-RO-wCx"/>
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nwV-d2-Zdk">
@@ -240,24 +241,54 @@
                                     <navigationItem title="TIC TAC TOE" largeTitleDisplayMode="always" id="A1f-4p-lR4"/>
                                 </items>
                             </navigationBar>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cross has won" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Crs-AP-IyH">
+                                <rect key="frame" x="1" y="44" width="238" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RcG-2f-CHe">
+                                <rect key="frame" x="137" y="78" width="222" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
+                                <state key="normal" title="PLAY AGAIN" backgroundImage="Gradient Purple-Pink">
+                                    <color key="titleShadowColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="playAgain:" destination="b2z-BG-fy9" eventType="touchUpInside" id="PmD-y2-yqz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fXb-k9-UTd">
+                                <rect key="frame" x="184" y="599" width="169" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <state key="normal" title="BACK TO GAMEROOM" backgroundImage="Gradient Purple-Pink"/>
+                                <connections>
+                                    <segue destination="8mW-bL-PQu" kind="presentation" identifier="backtogameroomSegue" id="qBS-f1-Eqe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="hNp-Gs-pZw"/>
                     </view>
                     <connections>
-                        <outlet property="button1" destination="hB2-zB-cO2" id="ayZ-vW-Xsc"/>
+                        <outlet property="label" destination="Crs-AP-IyH" id="Yqw-Ig-lu1"/>
+                        <outlet property="playAgainButton" destination="RcG-2f-CHe" id="Iyt-eg-h1O"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ydt-xI-9eW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5764" y="-999"/>
+            <point key="canvasLocation" x="5968.8000000000002" y="-1025.0374812593705"/>
         </scene>
         <!--Choose Character View Controller-->
         <scene sceneID="Nhv-ne-kYc">
             <objects>
-                <viewController id="O3w-hf-YQo" customClass="TTTChooseCharacterViewController" customModule="LilArcadeProj" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="O3w-hf-YQo" customClass="TTTChooseCharacterViewController" customModule="LilArcadeProj" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lZU-PX-Hrc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose A Character" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6w-kx-X1B">
@@ -294,21 +325,18 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Tai-ox-1SR"/>
                     </view>
-                    <connections>
-                        <segue destination="b2z-BG-fy9" kind="presentation" id="uAs-Az-BhA"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Tz-KK-If5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4713" y="-999"/>
+            <point key="canvasLocation" x="4687" y="-357"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="iaY-7J-Y0A">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Vm9-48-m6n" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="Vm9-48-m6n" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3SU-ar-nc0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -346,7 +374,7 @@
             <objects>
                 <viewController id="e5o-LT-oms" customClass="SettingsViewController" customModule="LilArcadeProj" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PJr-lm-rs3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Gradient Purple-Pink" translatesAutoresizingMaskIntoConstraints="NO" id="Epo-sp-xPQ" userLabel="Settings Background Color">
@@ -472,7 +500,7 @@
             <objects>
                 <viewController id="MfL-uz-M7P" customClass="ProfileViewController" customModule="LilArcadeProj" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e6R-kD-0jc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Gradient Purple-Pink" translatesAutoresizingMaskIntoConstraints="NO" id="MTx-sy-ahg">
@@ -569,6 +597,9 @@
             <point key="canvasLocation" x="3704.8000000000002" y="-50.824587706146929"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="qBS-f1-Eqe"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Board" width="1078" height="1068"/>
         <image name="Cross" width="300" height="297"/>
@@ -579,6 +610,7 @@
         <image name="Gradient Pink-Blue" width="852" height="480"/>
         <image name="Gradient Purple-Pink" width="268" height="188"/>
         <image name="Nought" width="300" height="302"/>
+        <image name="Screen Shot 2020-04-13 at 9.15.04 PM" width="372" height="374"/>
         <image name="person.crop.circle.fill" catalog="system" width="128" height="121"/>
         <image name="welcome_to_lilarcade" width="872" height="248"/>
     </resources>
