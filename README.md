@@ -151,7 +151,7 @@ Speed Tap Image:
 # LilArcadeProject
 It's our group app that is a mini arcade of simple, classic games...Enjoy!! 
 
-Unit 10 - Weekly Sprints:
+## Unit 10 - Weekly Sprints:
 - [x] Create database via Parse
 - [x] User Login/Logout/Sign Up
 - [x] TabView Controller (Settings, Profile, Home/GameRoom)
@@ -163,6 +163,13 @@ Unit 10 - Weekly Sprints:
 ### Build Progress/App Skeleton Walkthrough GIF:
 <img src="http://g.recordit.co/tkUSunrwVO.gif" width=250><br>
 
-# Unit 11 - Weekly Sprints:
+## Unit 11 - Weekly Sprints:
 
-## Create Tic Tac Toe:
+### Create Tic Tac Toe:
+- [x] Make background image to be the hashtag symbol (#)
+- [x] Program the instructions of the game (How someone wins, etc.)
+- [x] Make segue from Gameroom to TicTacToe
+- [x] Configure Settings further
+
+### Build Progress/App Skeleton Walkthrough GIF:
+<img src="https://media.giphy.com/media/lp29Vnb8mc4JYMNXm2/giphy.gif" width=250><br>
