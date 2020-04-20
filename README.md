@@ -173,3 +173,11 @@ It's our group app that is a mini arcade of simple, classic games...Enjoy!!
 
 ### Build Progress/App Skeleton Walkthrough GIF:
 <img src="https://media.giphy.com/media/lp29Vnb8mc4JYMNXm2/giphy.gif" width=250><br>
+
+## Unit 12 - Weekly Sprints:
+
+### Create PacMaze:
+- [x] Make arrays of images (maze blocks, ghosts, etc.)
+- [x] Make the background 
+- [x] Placed images/sprites (pacman, goal, etc.)
+- [x] Test w/ a fake User
