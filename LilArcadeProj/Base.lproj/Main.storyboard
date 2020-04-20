@@ -713,7 +713,6 @@
         <image name="welcome_to_lilarcade" width="872" height="248"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fkt-XJ-yhn"/>
         <segue reference="qBS-f1-Eqe"/>
     </inferredMetricsTieBreakers>
 </document>

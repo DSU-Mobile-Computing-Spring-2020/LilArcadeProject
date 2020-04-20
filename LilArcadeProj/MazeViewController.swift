@@ -7,28 +7,8 @@
 //
 
 import UIKit
-import <;QuartzCore/CAAnimation.h>;
 
 class MazeViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        CGPoint; origin1 = self.ghost1.center;
-        CGPoint; target1 = CGPointMake(self.ghost1.center.x, self.ghost1.center.y-124);
-        
-        CABasicAnimation; *bounce1 = [CABasicAnimation, animationWithKeyPath,"position.y"];
-        bounce1.fromValue = [NSNumber, numberWithInt,origin1.y];
-        bounce1.toValue = [NSNumber, numberWithInt,target1.y];
-        bounce1.duration = 2;
-        bounce1.autoreverses = YES;
-        bounce1.repeatCount = HUGE_VALF;
-        
-        [self.ghost1.layer, addAnimation,bounce1, forKey,"position"];
-        
-       // add the rest of ghost once test 
-    }
     
     @IBOutlet var pacman: UIImageView!
     
@@ -44,7 +24,21 @@ class MazeViewController: UIViewController {
     
     @IBOutlet var wall: [UIImageView]!
     
+    var imgarray = [UIImage(named:"ghost.png")!,]
     
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // Do any additional setup after loading the view.
+        self.imgview.animationImages = imgarray
+        self.imgview.animationDuration = 10.0
+        self.imgview.animationRepeatCount = 0
+        self.imgview.startAnimating()
+    }
+}
+        // add the rest of ghost once test
+
     
     /*
     // MARK: - Navigation
@@ -56,4 +50,4 @@ class MazeViewController: UIViewController {
     }
     */
 
-}
+
