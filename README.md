@@ -181,3 +181,4 @@ It's our group app that is a mini arcade of simple, classic games...Enjoy!!
 - [x] Make the background 
 - [x] Placed images/sprites (pacman, goal, etc.)
 - [x] Test w/ a fake User
+<img src="https://media.giphy.com/media/eJoon2TIVrt6G7wH4g/giphy.gif" width=250><br>
