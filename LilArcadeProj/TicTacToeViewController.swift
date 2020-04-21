@@ -29,12 +29,12 @@ class TicTacToeViewController: UIViewController {
             gameState[sender.tag-1] = activePlayer
         if (activePlayer == 1)
         {
-            sender.setImage(UIImage(named: "Cross.png"), for: UIControl.State.normal)
+            sender.setImage(UIImage(named: "Cross"), for: UIControl.State.normal)
             activePlayer = 2
         }
         else
         {
-            sender.setImage(UIImage(named: "Nought.png"), for: UIControl.State.normal)
+            sender.setImage(UIImage(named: "Nought"), for: UIControl.State.normal)
             activePlayer = 1
         }
     }
