@@ -18,6 +18,8 @@ class ProfileViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        usernameLabel.text = usernameField.text
     }
     
     @IBAction func changeUsername(_ sender: Any) {  //What happens if the user types in nothing and presses 'change' button?
