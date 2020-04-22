@@ -19,6 +19,10 @@ class LoginViewController: UIViewController {
     //commit, pull, then push 
     //edit....
     
+    override var prefersStatusBarHidden: Bool {
+      return true
+    }
+    
     @IBOutlet weak var passwordField: UITextField!
     @IBOutlet weak var usernameField: UITextField!
          

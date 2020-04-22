@@ -19,7 +19,8 @@ class ProfileViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        usernameLabel.text = usernameField.text
+        usernameLabel.text = PFUser.current()?.username
+        print(PFUser.current()?.username)
     }
     
     @IBAction func changeUsername(_ sender: Any) {  //What happens if the user types in nothing and presses 'change' button?
