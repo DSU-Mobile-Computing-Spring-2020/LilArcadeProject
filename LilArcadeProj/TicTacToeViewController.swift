@@ -18,6 +18,11 @@ class TicTacToeViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+    
     @IBAction func onBackButton(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
@@ -89,12 +94,6 @@ class TicTacToeViewController: UIViewController {
             let button = view.viewWithTag(i) as! UIButton
             button.setImage(nil, for: UIControl.State())
         }
-    }
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
     
   

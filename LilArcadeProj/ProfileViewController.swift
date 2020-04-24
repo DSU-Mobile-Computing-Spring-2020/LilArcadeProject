@@ -10,7 +10,14 @@ import UIKit
 import Parse
 
 class ProfileViewController: UIViewController {
-
+    
+    @IBOutlet weak var winsLabel: UILabel!
+    @IBOutlet weak var winsCountLabel: UILabel!
+    @IBOutlet weak var lossesLabel: UILabel!
+    @IBOutlet weak var lossesCountLabel: UILabel!
+    @IBOutlet weak var drawsLabel: UILabel!
+    @IBOutlet weak var drawsCountLabel: UILabel!
+    
     @IBOutlet weak var changeUsernameField: UITextField!
     @IBOutlet weak var usernameLabel: UILabel!
     
@@ -18,6 +25,13 @@ class ProfileViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        winsLabel.layer.cornerRadius = 5.0
+        winsCountLabel.layer.cornerRadius = 5.0
+        lossesLabel.layer.cornerRadius = 5.0
+        lossesCountLabel.layer.cornerRadius = 5.0
+        drawsLabel.layer.cornerRadius = 5.0
+        drawsCountLabel.layer.cornerRadius = 5.0
+        usernameLabel.layer.cornerRadius = 10.0
         
         usernameLabel.text = PFUser.current()?.username
         print(PFUser.current()?.username)
