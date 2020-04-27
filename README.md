@@ -193,5 +193,8 @@ It's our group app that is a mini arcade of simple, classic games...Enjoy!!
 - [x] Test with a fake user
 - [x] Make sure High Score resets to zero for every new user 
 
-
+### Touching up:
+- [x] Navigation “back” button/most efficient way to do so
+- [x] Display username 
+- [x] Stay logged in
 
