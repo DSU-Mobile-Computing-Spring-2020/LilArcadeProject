@@ -144,6 +144,17 @@
                                     <segue destination="f5D-bd-kXu" kind="presentation" identifier="pacMazeSegue" id="eIV-fl-eG0"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBc-VN-NyR">
+                                <rect key="frame" x="139" y="534" width="96" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="AI Tic Tac Toe">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="FAH-JT-2Ws" kind="show" id="o2n-ap-A11"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="xrc-Qh-9li"/>
@@ -915,6 +926,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VN2-oJ-Oaa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3704.8000000000002" y="-50.824587706146929"/>
+        </scene>
+        <!--AiTicTacToe-->
+        <scene sceneID="6n0-90-MH4">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AiTicTacToe" id="FAH-JT-2Ws" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="d3e-fP-Uew"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="97N-Mw-NOT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4561" y="-224"/>
         </scene>
     </scenes>
     <resources>

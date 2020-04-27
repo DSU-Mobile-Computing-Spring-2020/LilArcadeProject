@@ -13,6 +13,7 @@
 		6C1DD29F2450C4D200377B0D /* SpeedTapHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1DD29E2450C4D200377B0D /* SpeedTapHomeViewController.swift */; };
 		6C1DD2A12450CD0300377B0D /* SpeedTapMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1DD2A02450CD0300377B0D /* SpeedTapMainViewController.swift */; };
 		6C54160C244409B3000B7188 /* TTTChooseCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C54160B244409B3000B7188 /* TTTChooseCharacterViewController.swift */; };
+		6C68AC70245684C4004A2A56 /* AiTicTacToe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C68AC6F245684C4004A2A56 /* AiTicTacToe.storyboard */; };
 		6C9C1C6524384C0A005E09BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C1C6424384C0A005E09BA /* AppDelegate.swift */; };
 		6C9C1C6724384C0A005E09BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C1C6624384C0A005E09BA /* SceneDelegate.swift */; };
 		6C9C1C6C24384C0A005E09BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C1C6A24384C0A005E09BA /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 		6C1DD29E2450C4D200377B0D /* SpeedTapHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTapHomeViewController.swift; sourceTree = "<group>"; };
 		6C1DD2A02450CD0300377B0D /* SpeedTapMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTapMainViewController.swift; sourceTree = "<group>"; };
 		6C54160B244409B3000B7188 /* TTTChooseCharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTChooseCharacterViewController.swift; sourceTree = "<group>"; };
+		6C68AC6F245684C4004A2A56 /* AiTicTacToe.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AiTicTacToe.storyboard; sourceTree = "<group>"; };
 		6C9C1C6124384C0A005E09BA /* LilArcadeProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LilArcadeProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9C1C6424384C0A005E09BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C9C1C6624384C0A005E09BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				6C1DD2A02450CD0300377B0D /* SpeedTapMainViewController.swift */,
 				6CFD0CFE245225CD0067FDCD /* SpeedTapEndViewController.swift */,
 				B8EC042D2456809C000F02EC /* AiTicTacToeViewController.swift */,
+				6C68AC6F245684C4004A2A56 /* AiTicTacToe.storyboard */,
 			);
 			path = LilArcadeProj;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				6C9C1C7124384C0C005E09BA /* LaunchScreen.storyboard in Resources */,
 				6C9C1C6E24384C0C005E09BA /* Assets.xcassets in Resources */,
 				6C9C1C6C24384C0A005E09BA /* Main.storyboard in Resources */,
+				6C68AC70245684C4004A2A56 /* AiTicTacToe.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
