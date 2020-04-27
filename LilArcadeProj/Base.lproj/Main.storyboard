@@ -153,7 +153,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NpN-46-hRC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3704.8000000000002" y="-904.49775112443785"/>
+            <point key="canvasLocation" x="3705" y="-893"/>
         </scene>
         <!--Speed Tap Home View Controller-->
         <scene sceneID="De3-rv-gri">
