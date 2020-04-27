@@ -198,3 +198,6 @@ It's our group app that is a mini arcade of simple, classic games...Enjoy!!
 - [x] Display username 
 - [x] Stay logged in
 
+### Tic Tac Toe:
+Bonus:
+- [ ] Create version "vs. Computer" (In the progress of finishing)
