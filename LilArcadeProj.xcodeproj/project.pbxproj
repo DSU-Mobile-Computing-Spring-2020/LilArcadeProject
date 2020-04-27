@@ -12,7 +12,6 @@
 		000C14F9244CB1C900853A9C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000C14F8244CB1C900853A9C /* QuartzCore.framework */; };
 		6C1DD29F2450C4D200377B0D /* SpeedTapHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1DD29E2450C4D200377B0D /* SpeedTapHomeViewController.swift */; };
 		6C1DD2A12450CD0300377B0D /* SpeedTapMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1DD2A02450CD0300377B0D /* SpeedTapMainViewController.swift */; };
-		6C54160C244409B3000B7188 /* TTTChooseCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C54160B244409B3000B7188 /* TTTChooseCharacterViewController.swift */; };
 		6C68AC70245684C4004A2A56 /* AiTicTacToe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C68AC6F245684C4004A2A56 /* AiTicTacToe.storyboard */; };
 		6C9C1C6524384C0A005E09BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C1C6424384C0A005E09BA /* AppDelegate.swift */; };
 		6C9C1C6724384C0A005E09BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C1C6624384C0A005E09BA /* SceneDelegate.swift */; };
@@ -37,7 +36,6 @@
 		3558663C90AD3D21A5ACB39C /* Pods-LilArcadeProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LilArcadeProj.release.xcconfig"; path = "Target Support Files/Pods-LilArcadeProj/Pods-LilArcadeProj.release.xcconfig"; sourceTree = "<group>"; };
 		6C1DD29E2450C4D200377B0D /* SpeedTapHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTapHomeViewController.swift; sourceTree = "<group>"; };
 		6C1DD2A02450CD0300377B0D /* SpeedTapMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedTapMainViewController.swift; sourceTree = "<group>"; };
-		6C54160B244409B3000B7188 /* TTTChooseCharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTChooseCharacterViewController.swift; sourceTree = "<group>"; };
 		6C68AC6F245684C4004A2A56 /* AiTicTacToe.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AiTicTacToe.storyboard; sourceTree = "<group>"; };
 		6C9C1C6124384C0A005E09BA /* LilArcadeProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LilArcadeProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C9C1C6424384C0A005E09BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 				6C9C1C7E243ACC84005E09BA /* SettingsViewController.swift */,
 				6C9C1C80243ACC94005E09BA /* ProfileViewController.swift */,
 				B8DF7FE12443F51C0062E297 /* TicTacToeViewController.swift */,
-				6C54160B244409B3000B7188 /* TTTChooseCharacterViewController.swift */,
 				000C14F4244CA6A300853A9C /* MazeViewController.swift */,
 				6C1DD29E2450C4D200377B0D /* SpeedTapHomeViewController.swift */,
 				6C1DD2A02450CD0300377B0D /* SpeedTapMainViewController.swift */,
@@ -249,7 +246,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C1DD29F2450C4D200377B0D /* SpeedTapHomeViewController.swift in Sources */,
-				6C54160C244409B3000B7188 /* TTTChooseCharacterViewController.swift in Sources */,
 				B8EC042E2456809C000F02EC /* AiTicTacToeViewController.swift in Sources */,
 				6CFD0CFF245225CD0067FDCD /* SpeedTapEndViewController.swift in Sources */,
 				6C9C1C7924384DA0005E09BA /* LoginViewController.swift in Sources */,

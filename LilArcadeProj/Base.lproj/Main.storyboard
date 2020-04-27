@@ -359,21 +359,6 @@
             </objects>
             <point key="canvasLocation" x="6576.8000000000002" y="-893.70314842578716"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="sUr-wR-XkT">
-            <objects>
-                <viewController id="dow-9J-ki3" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="KhC-gr-wtc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="b64-Hy-UW5"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ami-U8-qJx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="7245" y="35"/>
-        </scene>
         <!--Tic Tac Toe View Controller-->
         <scene sceneID="D2O-4n-zxg">
             <objects>
@@ -603,53 +588,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mDm-Mb-6SN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4836" y="-1606"/>
-        </scene>
-        <!--Choose Character View Controller-->
-        <scene sceneID="Nhv-ne-kYc">
-            <objects>
-                <viewController id="O3w-hf-YQo" customClass="TTTChooseCharacterViewController" customModule="LilArcadeProj" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="lZU-PX-Hrc">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose A Character" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6w-kx-X1B">
-                                <rect key="frame" x="16" y="87" width="343" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="35"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KNh-YA-8NE" userLabel="Option_X">
-                                <rect key="frame" x="28" y="218" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Cross"/>
-                                <connections>
-                                    <action selector="onOption_X:" destination="O3w-hf-YQo" eventType="touchUpInside" id="GaR-PP-7tg"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ndr-4l-iAt">
-                                <rect key="frame" x="166" y="256" width="30" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="96x-jP-isE" userLabel="Option_O">
-                                <rect key="frame" x="241" y="218" width="100" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Nought"/>
-                                <connections>
-                                    <action selector="onOption_O:" destination="O3w-hf-YQo" eventType="touchUpInside" id="2DU-U1-tse"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Tai-ox-1SR"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3Tz-KK-If5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5423" y="973"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="iaY-7J-Y0A">
@@ -940,7 +878,6 @@
     </scenes>
     <resources>
         <image name="Board" width="1078" height="1068"/>
-        <image name="Cross" width="300" height="297"/>
         <image name="Gradient Blue" width="500" height="331"/>
         <image name="Gradient Gold" width="626" height="417"/>
         <image name="Gradient Green" width="1920" height="1080"/>
@@ -948,7 +885,6 @@
         <image name="Gradient Pink-Blue" width="852" height="480"/>
         <image name="Gradient Purple-Pink" width="268" height="188"/>
         <image name="Lightspeed" width="1280" height="720"/>
-        <image name="Nought" width="300" height="302"/>
         <image name="Screen Shot 2020-04-13 at 9.15.04 PM" width="372" height="374"/>
         <image name="Speed Tap Title - 2" width="1276" height="262"/>
         <image name="exit" width="33" height="33"/>
