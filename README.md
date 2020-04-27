@@ -193,6 +193,9 @@ It's our group app that is a mini arcade of simple, classic games...Enjoy!!
 - [x] Test with a fake user
 - [x] Make sure High Score resets to zero for every new user 
 
+### Speed Tap Walkthrough GIF:
+<img src="http://g.recordit.co/YOMftnQAGh.gif" width=250><br>
+
 ### Touching up:
 - [x] Navigation “back” button/most efficient way to do so
 - [x] Display username 
