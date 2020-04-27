@@ -61,6 +61,7 @@ class AiTicTacToeViewController: UIViewController , UIImagePickerControllerDeleg
               sender.setImage(img2, for: .normal)
               
           }
+        /*
           let winner = winlose()
           switch winner {
           case 0:
@@ -144,6 +145,7 @@ class AiTicTacToeViewController: UIViewController , UIImagePickerControllerDeleg
                       }
               }
           }
+ */
       }
 
           
