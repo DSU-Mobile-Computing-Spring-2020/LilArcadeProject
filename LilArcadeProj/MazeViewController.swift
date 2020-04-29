@@ -36,7 +36,7 @@ class MazeViewController: UIViewController {
         super.viewDidLoad()
         addPanGesture(view: pacImageView)
         pacViewOrigin = pacImageView.frame.origin
-        view.bringSubviewToFront(toFront: pacImageView)
+        view.bringSubviewToFront(pacImageView)
         // Do any additional setup after loading the view.
 }
     func addPanGesture(view: UIView){
@@ -44,7 +44,7 @@ class MazeViewController: UIViewController {
         let pan = UIPanGestureRecognizer(target: self, action: #selector (MazeViewController.handlePan(sender:)))
         view.addGestureRecognizer(pan)
     }
-    func handlePan(sender: UIPanGestureRecognizer) {
+    @objc func handlePan(sender: UIPanGestureRecognizer) {
     
     let pacView = sender.view!
     let translation = sender.translation(in: view)
@@ -60,7 +60,7 @@ class MazeViewController: UIViewController {
                 }
             } else{
                 UIView.animate(withDuration: 0.3) {
-                    self.pacImageView.frame.origin = pacViewOrigin
+                    self.pacImageView.frame.origin = self.pacViewOrigin
                 }
             }
         default :
