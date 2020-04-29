@@ -37,6 +37,17 @@ class ProfileViewController: UIViewController {
         print(PFUser.current()?.username)
     }
     
+    
+    @IBAction func onLogout(_ sender: Any) {
+        PFUser.logOut()
+        let main = UIStoryboard(name: "Main", bundle: nil)
+        let LoginViewController = main.instantiateViewController(withIdentifier: "LoginViewController")
+        
+        let delegate = UIApplication.shared.delegate as! AppDelegate
+        
+        //delegate.window?.rootViewController = loginViewController
+    }
+    
     @IBAction func changeUsername(_ sender: Any) {  //What happens if the user types in nothing and presses 'change' button?
         var username = changeUsernameField.text
         

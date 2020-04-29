@@ -11,9 +11,6 @@ import UIKit
 
 class MazeViewController: UIViewController {
 
-
-    
-    @IBOutlet var pacman: UIImageView!
     
     @IBOutlet var ghost1: UIImageView!
     
@@ -27,6 +24,11 @@ class MazeViewController: UIViewController {
     
     @IBOutlet var wall: [UIImageView]!
     
+    @IBAction func onBackButton(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    
     var imagearray = [UIImage(named: "ghost.png")!,]
     
     override func viewDidLoad() {
@@ -38,8 +40,17 @@ class MazeViewController: UIViewController {
         self.ghost1.animationDuration = 12.0
         self.ghost1.startAnimating()
         
+    
+        
         
        // add the rest of ghost once test
+    }
+    
+    @IBAction func didPanPacView(_ sender: UIPanGestureRecognizer) {
+        let location = sender.location(in: view)
+        print("Location: x: \(location.x), y: \(location.y)")
+        let pacView = sender.view!
+        pacView.center = location
     }
     
     /*
