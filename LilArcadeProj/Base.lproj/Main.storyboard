@@ -159,7 +159,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="xrc-Qh-9li"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Gameroom" image="gamecontroller.fill" id="Qzr-wN-Jx7"/>
+                    <tabBarItem key="tabBarItem" title="Gameroom" image="gamecontroller.fill" catalog="system" id="Qzr-wN-Jx7"/>
                     <navigationItem key="navigationItem" id="xA6-pE-60D"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NpN-46-hRC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -758,7 +758,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="nO4-1p-Uk5"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" image="gear" id="e1h-v1-LWB"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gear" catalog="system" id="e1h-v1-LWB"/>
                     <connections>
                         <outlet property="backgroundColor" destination="Epo-sp-xPQ" id="YTb-rp-c0Z"/>
                     </connections>
@@ -835,7 +835,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="person.crop.circle" translatesAutoresizingMaskIntoConstraints="NO" id="vwz-2Z-4ws">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="vwz-2Z-4ws">
                                 <rect key="frame" x="16" y="63" width="117" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -869,7 +869,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="I5h-oL-oTn"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" image="person.circle.fill" id="LPz-dL-zGS"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.circle.fill" catalog="system" id="LPz-dL-zGS"/>
                     <connections>
                         <outlet property="changeUsernameField" destination="lg8-T3-lQm" id="ewZ-ue-d4a"/>
                         <outlet property="drawsCountLabel" destination="YRR-vX-q7r" id="PXK-Cb-H4V"/>
@@ -908,12 +908,11 @@
         <image name="Screen Shot 2020-04-13 at 9.15.04 PM" width="372" height="374"/>
         <image name="Speed Tap Title - 2" width="1276" height="262"/>
         <image name="exit" width="33" height="33"/>
-        <image name="gamecontroller.fill" width="128" height="82"/>
-        <image name="gear" width="128" height="119"/>
+        <image name="gamecontroller.fill" catalog="system" width="128" height="82"/>
+        <image name="gear" catalog="system" width="128" height="119"/>
         <image name="ghost" width="32" height="32"/>
         <image name="pacman" width="32" height="32"/>
-        <image name="person.circle.fill" width="128" height="121"/>
-        <image name="person.crop.circle" width="128" height="121"/>
+        <image name="person.circle.fill" catalog="system" width="128" height="121"/>
         <image name="squareWall" width="64" height="64"/>
         <image name="welcome_to_lilarcade" width="872" height="248"/>
     </resources>
