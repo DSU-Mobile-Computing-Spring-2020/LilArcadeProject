@@ -98,7 +98,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ut-ZH-Img" userLabel="Pong Button">
                                 <rect key="frame" x="236" y="348" width="82" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Gradient Orange"/>
+                                <state key="normal" image="COMINGSOON"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tic Tac Toe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVT-us-275" userLabel="Tic Tac Toe Label">
                                 <rect key="frame" x="56" y="227" width="87" height="39"/>
@@ -139,7 +139,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="36e-po-CVE" userLabel="PacMan Button" colorLabel="IBBuiltInLabel-Blue">
                                 <rect key="frame" x="236" y="123" width="82" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="Gradient Blue"/>
+                                <state key="normal" image="Pacmaze"/>
                                 <connections>
                                     <segue destination="f5D-bd-kXu" kind="presentation" id="14r-z9-7l3"/>
                                 </connections>
@@ -876,11 +876,12 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="97N-Mw-NOT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4561" y="-224"/>
+            <point key="canvasLocation" x="4734" y="-156"/>
         </scene>
     </scenes>
     <resources>
         <image name="Board" width="1078" height="1068"/>
+        <image name="COMINGSOON" width="1054" height="450"/>
         <image name="Gradient Blue" width="500" height="331"/>
         <image name="Gradient Gold" width="626" height="417"/>
         <image name="Gradient Green" width="1920" height="1080"/>
@@ -888,6 +889,7 @@
         <image name="Gradient Pink-Blue" width="852" height="480"/>
         <image name="Gradient Purple-Pink" width="268" height="188"/>
         <image name="Lightspeed" width="1280" height="720"/>
+        <image name="Pacmaze" width="308" height="196"/>
         <image name="Screen Shot 2020-04-13 at 9.15.04 PM" width="372" height="374"/>
         <image name="Speed Tap Title - 2" width="1276" height="262"/>
         <image name="exit" width="33" height="33"/>
