@@ -209,6 +209,9 @@ Bonus:
 - [ ] Create version "vs. Computer" (In the progress of finishing)
 
 ## Full Walkthrough Gif/Video:
+
+GIF:
 <img src="http://g.recordit.co/swD8np3fz1.gif" width=250><br>
 
+YOUTUBE VIDEO LINK:
 https://www.youtube.com/watch?v=P3D5s032QiY&feature=youtu.be
