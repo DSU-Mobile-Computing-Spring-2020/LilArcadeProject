@@ -207,3 +207,6 @@ It's our group app that is a mini arcade of simple, classic games...Enjoy!!
 ### Tic Tac Toe:
 Bonus:
 - [ ] Create version "vs. Computer" (In the progress of finishing)
+
+## Full Walkthrough Video:
+https://www.youtube.com/watch?v=P3D5s032QiY&feature=youtu.be
