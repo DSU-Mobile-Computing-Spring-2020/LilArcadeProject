@@ -184,3 +184,26 @@ It's our group app that is a mini arcade of simple, classic games...Enjoy!!
 
 ### Build Progress/App Skeleton Walkthrough GIF:
 <img src="https://media.giphy.com/media/eJoon2TIVrt6G7wH4g/giphy.gif" width=250><br>
+
+## Unit 13 - Weekly Sprints:
+
+### Create Speed Tap:
+- [x] Make the background for SpeedTap
+- [x] Figure out clocks/time/seconds in swift
+- [x] Taps score stat somewhere on the screen
+- [x] Back button to Gameroom
+- [x] Update Gameroom button/image of Speed Tap 
+- [x] Test with a fake user
+- [x] Make sure High Score resets to zero for every new user 
+
+### Speed Tap Walkthrough GIF:
+<img src="http://g.recordit.co/YOMftnQAGh.gif" width=250><br>
+
+### Touching up:
+- [x] Navigation “back” button/most efficient way to do so
+- [x] Display username 
+- [x] Stay logged in
+
+### Tic Tac Toe:
+Bonus:
+- [ ] Create version "vs. Computer" (In the progress of finishing)
