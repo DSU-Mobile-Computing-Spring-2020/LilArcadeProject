@@ -208,10 +208,8 @@ It's our group app that is a mini arcade of simple, classic games...Enjoy!!
 Bonus:
 - [ ] Create version "vs. Computer" (In the progress of finishing)
 
-## Full Walkthrough Gif/Video:
-
-GIF:
+## Full Walkthrough Gif:
 <img src="http://g.recordit.co/swD8np3fz1.gif" width=250><br>
 
-YOUTUBE VIDEO LINK:
+## Full Walkthrough Video:
 https://www.youtube.com/watch?v=P3D5s032QiY&feature=youtu.be
